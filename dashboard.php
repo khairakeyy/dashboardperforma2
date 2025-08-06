@@ -51,11 +51,15 @@ $lainnya = $conn->query($lainnyaQuery)->fetch_assoc()['total'];
 
         .header {
             background-color: #0e4b6c;
-            padding: 15px 30px;
             color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 1100px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         .logo-container {

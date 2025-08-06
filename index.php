@@ -77,13 +77,27 @@ while ($row = $countResult->fetch_assoc()) {
 
         .header {
             background-color: #0e4b6c;
-            padding: 15px 30px;
             color: white;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 1100px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
         .logo-container {
             display: flex;
             align-items: center;
@@ -111,16 +125,6 @@ while ($row = $countResult->fetch_assoc()) {
 
         .logout-btn:hover {
             background-color: #c0392b;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            text-align: center;
         }
 
         h1 {

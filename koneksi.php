@@ -1,9 +1,9 @@
 <?php
 // koneksi.php
-$server = "localhost";
-$username_db = "root";
-$password_db = "";
-$database = "db_banknagari";
+$server = "sql311.infinityfree.com";
+$username_db = "if0_39646060";
+$password_db = "dashboard02";
+$database = "if0_39646060_db_banknagari";
 
 // Buat koneksi
 $koneksi = mysqli_connect($server, $username_db, $password_db, $database);

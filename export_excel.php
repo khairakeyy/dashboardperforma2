@@ -25,7 +25,7 @@ while ($data = mysqli_fetch_array($query)) {
     $sheet->setCellValue('A' . $i, $no++);
     $sheet->setCellValue('B' . $i, $data['nama_usaha']);
     $sheet->setCellValue('C' . $i, $data['nama_pemilik']);
-    $sheet->setCellValue('D' . $i, $data['no_hp']);
+    $sheet->setCellValue('D' . $i, $data['handphone']);
     $sheet->setCellValue('E' . $i, $data['alamat']);
     $sheet->setCellValue('F' . $i, $data['sektor']);
     $i++;
